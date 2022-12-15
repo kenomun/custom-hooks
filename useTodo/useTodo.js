@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useReducer } from 'react'
-import { todoReducer } from '../08-useReduce/TodoReducer'
+import { todoReducer } from './TodoReducer'
 
 const init=()=>{
     // extrae del local storage nuestros datos 
